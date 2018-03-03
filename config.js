@@ -1,8 +1,8 @@
-var api = "http://apihost.com:port";
+var api = "http://gmt.npool.pw:10080";
 
-var poolHost = "apihost.com";
+var poolHost = "gmt.npool.pw";
 
-var blockExplorer = "http://blockexplorer.pw/coin";
+var blockExplorer = "http://blockexplorer.pw/gmt";
 
 var cryptonatorWidget = ["BTC-USD", "XMR-USD"];
 
@@ -15,5 +15,5 @@ var transactionExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchai
 var themeCss = "themes/default-theme.css";
 
 var networkStat = [
-        ["coin.apihost.com", "http://coin.apihost.com:port"]
+        ["npool.pw/gallion", "http://gmt.npool.pw:10080"]
 ];
